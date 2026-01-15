@@ -18,6 +18,5 @@ jobs:
               run: node -v
             - name: install dependencies
               run: npm ci
-            - name: run tests
-              run: npm run tests
-              
+            - name: run test
+              run: npm run test
